@@ -45,7 +45,9 @@
         margin-bottom: 10px;
     }
     .info{
-        font-size: 14px;
+        width: 100%;
+        text-align: center;
+        font-size: 75%;
     }
 }
 .info{
@@ -146,7 +148,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 450px;
+    width: 30%;
     height: 500px;
     background-color: white;
     border-radius: 15px;
@@ -238,17 +240,26 @@
         align-items: center;
         justify-content: space-evenly;
     }
+    .c4{
+        display: flex;
+        width: 95%;
+        flex-direction: column;
+    }
+    .c3{
+        width: 100%;
+    }
     .c1{
         text-align: center;
         font-size: 25px;
         line-height: normal;
     }
+
     .c2{
         font-size: 15px;
         text-align: center;
     }
     .c3>div>div>img{
-        width: 33px;
+        width: 94%;
     }
     .placed{
         font-size: small;
@@ -257,11 +268,45 @@
         font-size: 10px;
     }
     .linkdin{
-        width: 210px;
+        width: 95%;
         font-size: small;
+        margin-bottom: 10px;
+        margin-inline: 0px;
     }
     .next{
-        width: 250px;
+        margin-inline: 0px;
+    }
+    .box2{
+        width: 90%;
+    }
+    .c7{
+        width: 95%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .c7>div{
+        width: 100%;
+        background-color: whitesmoke;
+    }
+    .c7>div>input{
+        width: 90%;
+
+    }
+    ::placeholder{
+        font-size: 90%;
+    }
+    .c88{
+        font-size: 85%;
+    }
+    .c8{
+        width: 98%;
+    }
+    .c8>button{
+        width: 100%;
+    }
+    .box2{
+        height: 440px;
     }
     
 }
@@ -397,19 +442,19 @@ div>h1>span{
         width: 50vw; 
     }
     .flex2>div{
-        font-size: larger;
+        font-size: 95%;
     }
     .flex1>div{
-        font-size: medium;
+        font-size: 95%;
     }
     .flex1>div>img{
-        width: 80px;
+        width: 95%;
     }
     .flex2>p{
         font-size: 10px;
     }
     .card1{
-        width: 450px;
+        width: 90vw;
         height: 360px;
     }
     .hero-below{
@@ -530,17 +575,25 @@ div>h1>span{
 @media screen and (max-width:500px) {
     .courses{
         display: flex;
+        align-items: center;
         justify-content: center;
         flex-direction: column;
     }
+    .about>p{
+        font-size: 85%;
+    }
     .gets>h1{
-        font-size: 30px;
-    }  
+        font-size: 95%;
+    } 
+    .btn-1>div{
+        font-size: 70%;
+    } 
     .courses>div{
         margin-left: 45px;
         margin-bottom: 20px;
-        width: 400px;
-        height: 800px;
+        width: 90%;
+        margin-inline: 0px;
+        height: 770px;
         border-radius: 10px;
     }  
 }
@@ -564,5 +617,10 @@ marquee>img{
 @media screen and (max-width:500px){
     footer{
         width: 100%;
+        margin-bottom: 300px;
     }
+    marquee>img{
+        width: 150px;
+    }
+
 }
