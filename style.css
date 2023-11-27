@@ -10,6 +10,7 @@
 .navbar{
     position: sticky;
     top: 0px;
+    z-index: 10;
 }
 .priority{
     z-index: 10;
@@ -580,7 +581,7 @@ div>h1>span{
         flex-direction: column;
     }
     .about>p{
-        font-size: 85%;
+        font-size: 80%;
     }
     .gets>h1{
         font-size: 95%;
@@ -592,6 +593,7 @@ div>h1>span{
         margin-left: 45px;
         margin-bottom: 20px;
         width: 90%;
+        height: 780px;
         margin-inline: 0px;
         border-radius: 10px;
     }  
@@ -605,12 +607,14 @@ marquee{
 marquee>img{
     margin-inline: 20px;
 }
-.footer{
+footer{
     display: flex;
+    flex-direction: column;
+    z-index: 1;
     align-items: center;
     justify-content: center;
 }
-.footer{
+footer{
     margin-bottom: 100px;
 }
 @media screen and (max-width:500px){
